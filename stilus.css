@@ -1,0 +1,127 @@
+header {
+    border-radius: 10px;
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+header img {
+    float: left;
+    margin: 10px 15px 0px 10px;
+    height: 50px; 
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+nav {
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #FF6600;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+nav ul li {
+    padding: 0;
+}
+
+/*
+nav ul li.active {
+    background-color: blue;
+    
+    
+ 
+}*/
+
+/*  HA KELL HOGY LÁSSUK HOGY ÉPPEN MELYIK MENÜBEN VAGYUNK - KELL ILYEN? */
+
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    font-weight: bold;
+}
+
+nav ul a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Tartalmi rész */
+#wrapper {
+    margin: 10px;
+    display: block;
+}
+
+#content {
+    border-radius: 10px;
+    background-color: black;
+    padding: 20px;
+    min-height: 400px;
+}
+
+#content img {
+    float: right;
+    width: 20em;
+    height: auto;
+    margin: 0 0 15px 15px;
+    padding: 3px;
+    border: 3px solid red;
+}
+
+footer {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: red;
+    clear: both;
+}
+
+
+form p {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid red;
+    display: block;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #FF6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+#menu-kilepes {
+    display: none;
+}
+
+input:invalid {
+    border: 2px solid orange;
+}
+
+input:focus:invalid {
+    border: 2px solid red;
+}

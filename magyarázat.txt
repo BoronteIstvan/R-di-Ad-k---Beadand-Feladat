@@ -1,0 +1,4 @@
+Az előadás megoldas mappában lévő feladatot hsználtam alapúl a rádió adók táblából a kiosztas.txt dolgoztam fel a CRUDDAL
+hiányosságok a frekvenciánál csak egyet tudtam bevinni pl.:87,6 és a  pl.: 87,6 7,6 már nem tudpm hogy kell ezt meg javitani kell
+plusz hogy alkalmazas adait tömbe tarolja el azt se nagyon ertedtem hogy kene megvalositani ezen kivűl szerintem jó 
+de nem biztos 
