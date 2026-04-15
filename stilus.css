@@ -3,74 +3,57 @@ header {
     background-color: red;
     padding: 10px;
     margin: 10px;
-    overflow: hidden;
 }
 
 header img {
     float: left;
-    margin: 10px 15px 0px 10px;
-    height: 50px; 
+    margin: 20px 10px 0px 10px;
 }
 
-h1, h2, h3, p {
-    color: white;
+div#wrapper {
+    margin: 10px;
+}
+
+aside {
+    display: table-cell;
+    vertical-align: top;
 }
 
 nav {
-    margin: 10px 0;
+    margin: 0px 10px 0px 0px;
+    top: 0px;
     border-radius: 10px;
     background-color: #FF6600;
-    overflow: hidden;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex; 
+    margin: 0px;
+    padding: 15px 0px;
 }
 
 nav ul li {
-    padding: 0;
+    padding: 0px 15px;;
 }
 
-/*
 nav ul li.active {
-    background-color: blue;
-    
-    
- 
-}*/
-
-/*  HA KELL HOGY LÁSSUK HOGY ÉPPEN MELYIK MENÜBEN VAGYUNK - KELL ILYEN? */
-
+    border-right: 5px solid blue;
+}
 
 nav ul a {
     text-decoration: none;
-    color: white;
-    padding: 15px 20px;
-    display: block;
-    font-weight: bold;
+    color: blue;
 }
 
-nav ul a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-/* Tartalmi rész */
-#wrapper {
-    margin: 10px;
-    display: block;
-}
-
-#content {
+div#content {
+    display: table-cell;
+    width: 100%;
     border-radius: 10px;
     background-color: black;
-    padding: 20px;
-    min-height: 400px;
+    padding: 15px;
 }
 
-#content img {
+div#content img{
     float: right;
     width: 20em;
     height: auto;
@@ -84,44 +67,24 @@ footer {
     margin: 10px;
     padding: 5px 20px;
     background-color: red;
-    clear: both;
 }
 
+h1{
+ color: white;
 
-form p {
-    margin-bottom: 15px;
 }
 
-input {
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid red;
-    display: block;
-    margin-top: 5px;
+h3{
+ color: white;
+
 }
 
-button {
-    background-color: #FF6600;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
+p{
+ color: white;
+
+}
+h2{
+ color: white;
+
 }
 
-button:hover {
-    background-color: blue;
-}
-
-#menu-kilepes {
-    display: none;
-}
-
-input:invalid {
-    border: 2px solid orange;
-}
-
-input:focus:invalid {
-    border: 2px solid red;
-}
