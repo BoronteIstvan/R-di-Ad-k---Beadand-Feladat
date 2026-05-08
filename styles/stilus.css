@@ -1,0 +1,181 @@
+header {
+    border-radius: 10px;
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;
+    max-width: auto; 
+     color: white;
+}
+
+header img {
+    float: left;
+    margin: 20px 10px 0px 10px;
+     color: white;
+}
+
+div#wrapper {
+    margin: 10px;
+    max-width: auto; 
+    margin-left: auto;
+    margin-right: auto;
+     color: white;
+}
+
+aside {
+    display: block;
+     color: white;
+    
+}
+
+nav {
+    margin: 0px 10px 0px 0px;
+   
+    border-radius: 10px;
+    background-color: #FF6600;
+    width: auto;
+    display: block;
+     color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+     color: white;
+}
+
+nav ul li {
+    padding: 15px 20px;
+     color: white;
+}
+
+nav ul li.active {
+    border-right:  none;
+    border-right: 5px solid blue;
+     color: white;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: blue;
+     color: white;
+}
+
+div#content {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+    padding: 15px;
+    width: auto;
+    display: block;
+     color: white;
+}
+
+div#content img{
+    float: right;
+    margin: 10px auto;
+    height: auto;    
+    margin: 0 0 15px 15px;
+    padding: 3px;
+    border: 3px solid blue;
+    display: block;
+     color: white;
+}
+
+footer {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: red;
+    color : white;
+}
+
+
+h1{
+ color: white;
+
+}
+
+h3{
+ color: white;
+
+}
+
+p{
+ color: white;
+
+}
+h2{
+ color: white;
+
+}
+.video-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 40px 0;
+    width: 100%;
+    justify-content: center;
+    clear: both;
+}
+
+.video-item {
+    flex: 1;
+    width: 48%;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+.video-item video, 
+.video-item .iframe-container {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Fix képarány beállítása */
+    background-color: #000;
+    border-radius: 8px;
+    display: block;
+}
+
+.iframe-container {
+    position: relative;
+    height: auto;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+}
+.feltoltes-doboz {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #FF6600;
+}
+
+.feltoltes-doboz input[type="file"] {
+    color: white;
+    margin: 10px 0;
+}
+
+.feltoltes-doboz button {
+    background-color: #FF6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
